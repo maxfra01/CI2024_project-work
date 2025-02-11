@@ -1,6 +1,6 @@
 ## Symbolic Regression in Pure Python
 
-This is a simple implementation of symbolic regression in pure Python. It uses a genetic algorithm to evolve a population of expressions that best fit a given dataset. In each generation, the algorithm selects the best individuals with torunament selection, recombines them using crossover, and mutates (lower probability) them using mutation operations. The algorithm stops when the maximum number of generations is reached. An extinction mechanism is used to promote diversity in case the population converges to a local minimum. 
+This is a simple implementation of symbolic regression in pure Python. It uses a genetic programming to evolve a population of expressions that best fit a given dataset. In each generation, the algorithm selects the best individuals with torunament selection, recombines them using crossover, and mutates (lower probability) them using mutation operations. The algorithm stops when the maximum number of generations is reached. An extinction mechanism is used to promote diversity in case the population converges to a local minimum. 
 
 ### Usage
 
